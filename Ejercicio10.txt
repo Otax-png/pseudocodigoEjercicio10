@@ -1,0 +1,26 @@
+Algoritmo Algoritmo10
+	
+	Definir number, total, total2, contador, aux Como Entero
+	
+	Repetir
+		Leer number 
+		total = total + number
+		Escribir total
+		
+		aux = number % 6
+		si aux = 0 Entonces
+			contador = contador +1
+			Escribir "Hay ", contador, " multiplos de 6"
+		FinSi
+		
+		si number > 0  Y number <= 10 Entonces
+			total2 = total2 + number
+			Escribir "La suma de los numeros entre 0 y 10 es ", total2
+		
+			
+		FinSi
+		
+		
+	Hasta Que total >= 1000
+	
+FinAlgoritmo
